@@ -1,0 +1,47 @@
+nav {
+	width: 100%;
+	background-color: red;
+	overflow: hidden;
+}
+nav li {	
+	float: right;
+	padding: 10px;
+	list-style-type: none;
+}
+.maindiv {
+	max-width: 850px;
+	width: 66%;
+	float: right;
+}
+.sidediv {
+	width: 30%;
+	min-width: 320px;
+	float: left;
+	border: solid 1px black;
+}
+img {
+	width: 20%;
+	height: 20%;
+}
+
+@media screen and (max-width: 850px) {
+	.maindiv {
+		padding: 10%;
+		width:80%;
+}
+	nav li{
+		display:block;
+		float:none;
+		text-align: center;
+		width: 100%;
+	}
+	img {
+		display: block;
+		width:70%;
+	}
+
+
+
+
+
+};

@@ -1,0 +1,10 @@
+var quote = function(text,author) {
+	this.text = text;
+	this.author = author;
+	this.countWords = function(text) {
+		var arr = []
+		text.split(" ")
+	}
+}
+
+var newQuote = new quote("Captain Underpants", "Dave Pilkey")

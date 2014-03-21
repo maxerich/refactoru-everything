@@ -1,0 +1,10 @@
+extends layout
+
+block content
+	.jumbtron
+		h2 Come check out all of our hot islands
+		h4 So much honey mane
+
+	.row
+		for island in islands
+			p= island.name

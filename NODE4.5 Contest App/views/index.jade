@@ -1,0 +1,26 @@
+extends layout
+
+block content
+	.container
+		form.form-horizontal
+			.col-md-12
+				.form-group
+					label.col-md-2 Name:
+					.col-md-8
+						input(type="text", placeholder="Your Name", name="firstname").form-control
+				.form-group
+					label.col-md-2 URL:
+					.col-md-8
+						input(type="text", placeholder="Your URL" name="url").form-control
+				.form-group
+					label.col-md-2 Title:
+					.col-md-8
+						input(type="text", placeholder="Your Name" name="title").form-control
+				.form-group
+					label.col-md-2 Description:
+					.col-md-8
+						input(type="text", placeholder="Description" name="description").form-control
+				.form-group
+					.col-md-2.col-md-offset-9
+						a(href="./").btn.btn-danger.btn-lg Submit
+

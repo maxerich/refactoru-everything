@@ -1,0 +1,194 @@
+/* ADD YOUR STYLES HERE */
+
+/* 6 horizon box 1 */
+
+.horizonbox {
+	width: 80%;
+	margin: auto;
+}
+.horizon {
+	padding: 20px;
+}
+
+/* 6 horizon box 2 */
+
+.horizonbox2 {
+	width: 100%;
+}
+.inline {
+	display: inline-block;
+
+}
+.horizon2 {
+	display: inline-block;
+	padding: 20px;
+	vertical-align: top;
+}
+
+
+/* 7 vert box 1 */
+
+.innervert {
+	padding: 150px 0px;
+}
+
+/* 7 vert box 2 */
+
+.innervert2 {
+	padding: 80px 0px 60px 0px;
+}
+
+
+/* 8 Horizontal List */
+
+.list li {
+	display: inline;
+	width: -10px;
+	padding: 0px;
+	float: left;
+}
+.list {
+	margin-left: -40px;
+}
+
+/* 9 Buttons 1 */
+
+.button {
+	color: white;
+	background-color: rgb(237,130,138);
+	text-decoration: none;
+	border-radius: 8px;
+	display: inline-block;
+	border:none;
+}
+.button.small {
+	font-size: 25px;
+	padding: 3% 7.3%;
+}
+.button.medium  {
+	font-size: 18px;
+	padding: 1% 4.75%;
+}
+.button.large {
+	font-size: 13px;
+	padding: 5px 8px;
+}
+.button.same {
+	padding: 1.4% 4.9%;
+}
+
+/* 10 Navigation */
+
+nav {
+	border-radius: 8px;
+	color: white;
+	background-color: rgb(237,130,138);
+	width: 86%;
+}
+
+.navigationlist li{
+	display: inline-block;
+}
+.navigationlist a{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	padding: 10px 33px;
+}
+.navigationlist a:hover{
+	color: blue;
+}
+
+
+/* Pagination */
+
+.pagination {
+	display: inline-block;
+	padding: 20px 7px;
+}
+.pagination a{
+	text-decoration: none;
+	color: rgb(237,130,138);
+}
+.pagborder {
+	border-bottom: solid 3px rgb(237,130,138);
+	padding: 8px 5px;
+	color: rgb(237,130,138);
+}
+.pagborder:hover {
+	border-bottom: solid 3px #CCCCCC;
+	padding: 8px 5px;
+	color: #CCCCCC;
+}
+
+
+/* Comment Stream */
+
+.comment1 {
+	display: block;
+	width: 760px;
+	height: 94px;
+}
+.image1, .image2, .image4, .image5 {
+	float: left;
+	padding: 0px 10px 10px 0px;
+}
+.comment2 {
+	display: block;
+	width: 760px;
+	height: 400px;
+}
+.image3  {
+	float: left;
+	width: 90px;
+	height: 400px;
+}
+.comment4, .comment5 {
+	height: 74px;
+	width: 600px;
+}
+time {
+	color: silver;
+	font-size: 12px;
+}
+
+/* Tabs */
+
+.tablist li{
+ 	list-style: none;
+ 	width: auto;
+ 	padding: 0px 5px;
+ 	display: inline-block;
+ 	border:solid blue;
+ 	border-width:  1px 1px 0px 1px;
+	padding: 5px 5px 0px 5px;
+	border-radius: 5px 5px 0px 0px;
+	height: 20px;
+}
+.tablist a{
+	text-decoration: none;
+	color: blue;
+} 
+.tablist div {
+	/*border:solid blue;*/
+	/*border-width:  1px 1px 0px 1px;
+	padding: 5px 5px 0px 5px;
+	border-radius: 5px;
+	height: 20px;*/
+}
+.tab-content {
+	border: solid 1px blue;
+	padding: 10px;
+	border-radius: 7px;
+}
+.tablist .selected {
+	z-index: 100;
+	background: white;
+	border-bottom: 2px solid white;
+	margin-bottom: -1px;
+}
+
+
+
+
+

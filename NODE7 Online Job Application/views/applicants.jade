@@ -1,0 +1,17 @@
+extends layout
+
+block content
+	.container
+		h1 Applicants
+		ul#applications.list-unstyled
+			for job in jobs
+				.col-md-3 
+					li Name: #{job.name}
+					li Bio: #{job.bio}
+					li Skills: #{job.skills}
+					li Years of Exp: #{job.years}
+					li Why This Job: #{job.why}
+					li 
+						a(href="/applicants/remove/" + job.id).pull-right X
+	.container
+		a(href="/") Back to Job App
